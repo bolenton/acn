@@ -1,6 +1,7 @@
 body {
     margin: auto;
-    font-family: sans-serif;
+    
+    font-family: "Segoe UI Light", sans-serif;
     font-weight: 50%;
     color: dimgrey;
 }
@@ -20,8 +21,8 @@ header {
     padding: 1px;
     border-color: lightgrey;
     vertical-align: middle;
-    left: 24%;
-    position:fixed;
+    left: 12%;
+    position: absolute;
 }
 
 #language-label {
@@ -31,8 +32,8 @@ header {
     padding: 1px;
     border-color: lightgrey;
     vertical-align: middle;       
-    left: 28%;
-    position:fixed;
+    left: 18%;
+    position: absolute;
 }
 
 #language-img {
@@ -45,8 +46,8 @@ header {
     padding-top: 4px;
     height: 23px;
     width: 35px;
-    left: 22%;
-    position:fixed;
+    left: 9%;
+    position: absolute;
 }
 
 #account-label {
@@ -56,16 +57,16 @@ header {
     padding: 1px;
     border-color: lightgrey;
     vertical-align: middle;       
-    left: 65%;
-    position:fixed;
+    left: 70%;
+    position: absolute;
 }
 
 #cart-img {
     display: inline-block;
     height: 30px;
     width: 50px;
-    position:fixed;
-    left: 72%;
+    position: absolute;
+    left: 61%;
 }
 
 #cart-img img { 
@@ -94,9 +95,7 @@ header {
 }
 
 #main-menu {
-    border-top-style: solid;
-    border-top-width: 10px;
-    border-top-color: #E9E9E9;
+    
     border-bottom-style: solid;
     border-bottom-width: thick;
     border-bottom-color: #7C7C7C;
@@ -107,40 +106,88 @@ header {
 
 #main-menu img{
     padding-top: 23px;
-    position: fixed;
-    left: 22%;
+    position: absolute;
+    left: 16%;
 }
 
-.top-menu {
-    position: relative;
+.head-border {
+    background: linear-gradient(to bottom,
+    rgb(255, 255, 255),
+    rgb(222, 222, 222));
+    padding-bottom: 10px;
+}
+
+.top-nav {
+    background: #c3c5c7;
     
 }
 
-.top-menu ul {    
+.top-nav ul {
+    display: inline-block; 
+    float: left;
+    transform: translatex(47%);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;   
+}
+
+.top-nav li {
+    display: inline-block; 
+    float: left;
+    border-right: 1px solid #7a7a7a;
+    border-left: 1px solid #7a7a7a; 
     margin: 0;
     padding: 0;
-    list-style-type: none; 
-    height: 75px;
-    position: absolute;
-    
-    
-    left: 30%;
-    
-    
+    height: 66px;
 }
 
-.top-menu li {
-    height: 75px;
-    display: inline;
-    
-     
-}
-
-.top-menu li a
-{
+.top-nav li a {
+    display: inline-block;
     text-decoration: none;
-    padding: 2px 2px;
+    color: #7a7a7a;
+    padding: 20px 14px;
+    margin: 0;
 }
+
+#img-carousel{
+    width: 100%;
+}
+
+
+#center-imgs ul{
+    display: inline-block; 
+    float: left;
+    transform: translatex(0%);
+}
+
+#center-imgs li{
+    display: inline; 
+    float: left;
+}
+
+#center-imgs li img{
+    display: inline-block;
+    height: 110px;
+    width: 245px;
+}
+
+#center-banner {
+    text-align: center;
+    color: white;
+    background-color: #9ac652;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
