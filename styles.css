@@ -140,6 +140,20 @@ header {
     
 }
 
+/* testing */
+#hidden {
+    visibility: hidden;
+}
+
+.top-nav ul:hover #hidden{
+    visibility: visible;
+    display: block;
+    
+}
+
+
+/* testing */
+
 .top-nav li {
     color: black;
     font-size: 17px;
@@ -149,6 +163,10 @@ header {
     margin: 0;
     padding: 0;
     height: 66px;
+}
+
+.top-nav li:hover { 
+    background-color: #CFCFCF;
 }
 
 .top-nav li:nth-child(6) {
