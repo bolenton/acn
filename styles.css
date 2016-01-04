@@ -229,17 +229,34 @@ header {
 }
 
  
-footer ul{
-    display: inline-block; 
+footer {
+    border-top-style: solid;
+    border-top-width: thick;
+    border-top-color: lightslategrey;
+    
+}
+
+#bottom-menu {
    
 }
 
-footer li {
-    display: inline; 
+footer ul{ 
+    
     float: left;
-    margin-right: 30px;
+    transform: translatex(37%);
 }
 
+footer li {
+    display: inline-block;  
+    margin-right: 90px;
+}
+
+#copyright{
+    padding-top: 45px;
+    display: block;
+    position: absolute;
+    transform: translatex(67%);
+}
 
 
 
