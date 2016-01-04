@@ -57,7 +57,7 @@ header {
     padding: 1px;
     border-color: lightgrey;
     vertical-align: middle;       
-    left: 65%;
+    left: 68%;
     position: absolute;
 }
 
@@ -66,7 +66,7 @@ header {
     height: 30px;
     width: 50px;
     position: absolute;
-    left: 72%;
+    left: 74.5%;
 }
 
 #cart-img img { 
@@ -90,8 +90,12 @@ header {
 }
 
 #welcome-msg {
+    font-size: 17px;
+    width: 560px;
     padding-top: 25px;
     padding-bottom: 15px;
+    transform: translatex(113%);
+    padding-top: 15px;
 }
 
 #main-menu {
@@ -169,7 +173,7 @@ header {
 #center-imgs ul{
     display: inline-block; 
     float: left;
-    transform: translatex(37%);
+    transform: translatex(32%);
 }
 
 #center-imgs li{
@@ -217,7 +221,7 @@ header {
 }
 
 .center-text {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
     display: inline-block;
     width: 245px;
@@ -230,35 +234,52 @@ header {
 
  
 footer {
-    border-top-style: solid;
-    border-top-width: thick;
-    border-top-color: lightslategrey;
-    
+    height: 148px;
 }
 
-#bottom-menu {
-   
-}
 
 footer ul{ 
     
     float: left;
-    transform: translatex(37%);
+    transform: translatex(50%);
 }
 
-footer li {
+#bottom-menu-left li{
     display: inline-block;  
-    margin-right: 90px;
+    margin-right: 110px;
+    font-size: 13px;
+    margin-top: 15px;
+    
+}
+
+#bottom-menu-left li a{
+    color: black;
+}
+
+#bottom-menu-right li{
+    display: inline-block;  
+    margin-left: 60px;
 }
 
 #copyright{
+    font-size: 17px;
+    color: darkgray;
     padding-top: 45px;
     display: block;
     position: absolute;
-    transform: translatex(67%);
+    transform: translatex(125%);
 }
 
 
+
+hr {
+    border-width: 0;
+    background-color: #c3c5c8; 
+    height: 2px; 
+    width: 100%;
+    border-bottom: 2px solid #e1e2e3;
+   
+}
 
 
 
