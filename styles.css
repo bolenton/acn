@@ -159,10 +159,10 @@ header {
 }
 
 .top-nav ul li ul {
-    
+    text-decoration: none;
   padding: 0;
   position: absolute;
-  top: 67px;
+  top: 65px;
     color: white;
   right: 163px;
   width: 155px;
@@ -180,34 +180,58 @@ header {
   -transition: opacity 0.2s;
     width: 100%;
     border: none;
+    
+}
+
+.top-nav ul li ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 40px;
+  left: -190px;
+ 
+
+   
+
 }
 
 .top-nav ul li ul li { 
-  background-color: #9AC652; 
+  background-color: #A2D056; 
   display: block; 
   color: white;
-    text-indent: 15px ;
-     
-    font-weight: 600;
-  text-shadow: 0 -1px 0 #000;
-   width: 115%; 
+  text-indent: 15px ;
+  font-weight: bolder;
+  
+  
+   width: 240px; 
     height: 35px;
     border: none;
     padding-top: 10px
 }
 
 .top-nav ul li ul li:hover { 
-    background-color: #9AC652; 
+    background-color: #9AC652;
+    
     
 }
 
-.top-nav ul li:hover ul {
+.top-nav ul li:hover ul, .top-nav ul li.over ul {
   display: block;
   opacity: 1;
   visibility: visible;
+    
+    
 }
-
-
+.top-nav ul li:hover ul ul, .top-nav ul li.over ul ul{
+    display:none;
+    background-color: #A2D056;
+       
+    
+}
+.top-nav ul ul li:hover ul, .top-nav ul ul li.over ul{
+    display: block;
+   
+    
+}
 /* testing */
 
 .top-nav li {
@@ -216,8 +240,8 @@ header {
     display: inline; 
     float: left;
     border-left: 1px solid #7a7a7a; 
-    margin: 0;
-    padding: 0;
+    
+    
     height: 66px;
 }
 
@@ -331,6 +355,8 @@ footer ul{
     transform: translatex(50%);
 }
 
+
+
 #bottom-menu-left li{
     display: inline-block;  
     margin-right: 110px;
@@ -343,6 +369,13 @@ footer ul{
     color: black;
 }
 
+#bottom-menu-right ul {
+    
+    padding-left: 0px;
+    margin-left: 77px;
+
+}
+
 #bottom-menu-right li{
     display: inline-block;  
     margin-left: 60px;
@@ -351,10 +384,14 @@ footer ul{
 #copyright{
     font-size: 17px;
     color: darkgray;
-    padding-top: 45px;
+  
     display: block;
     position: absolute;
     transform: translatex(129%);
+    
+    padding-top: 0px;
+    margin-top: 45px;
+
 }
 
 
@@ -367,8 +404,6 @@ hr {
     border-bottom: 2px solid #e1e2e3;
    
 }
-
-
 
 
 
